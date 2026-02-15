@@ -1,0 +1,22 @@
+[
+    {
+        "SALE_ID": "S001",
+        "SALE_DATE": "2026-02-15",
+        "Customer": "Sofia Reyes",
+        "Items": [
+            {"Product": "Protein Powder", "Quantity": 2},
+            {"Product": "Yoga Mat", "Quantity": 1},
+            {"Product": "Jump Rope", "Quantity": 3}
+        ]
+    },
+    {
+        "SALE_ID": "S002",
+        "SALE_DATE": "2026-02-15",
+        "Customer": "Kevin Park",
+        "Items": [
+            {"Product": "Resistance Band", "Quantity": 0},
+            {"Product": "Water Bottle", "Quantity": 2},
+            {"Product": "INVALID_PRODUCT", "Quantity": 1}
+        ]
+    }
+]

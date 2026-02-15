@@ -1,0 +1,22 @@
+[
+    {
+        "SALE_ID": "S001",
+        "SALE_DATE": "2026-02-13",
+        "Customer": "Maria Garcia",
+        "Items": [
+            {"Product": "Chair", "Quantity": 4},
+            {"Product": "Desk", "Quantity": 2},
+            {"Product": "Lamp", "Quantity": 3}
+        ]
+    },
+    {
+        "SALE_ID": "S002",
+        "SALE_DATE": "2026-02-14",
+        "Customer": "James Wilson",
+        "Items": [
+            {"Product": "Bookshelf", "Quantity": 1},
+            {"Product": "Rug", "Quantity": 2},
+            {"Product": "Chair", "Quantity": 1}
+        ]
+    }
+]

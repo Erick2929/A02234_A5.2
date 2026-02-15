@@ -1,0 +1,7 @@
+[
+    {"title": "Protein Powder", "price": 49.99},
+    {"title": "Resistance Band", "price": 14.99},
+    {"title": "Yoga Mat", "price": 29.99},
+    {"title": "Jump Rope", "price": -9.99},
+    {"title": "Water Bottle", "price": 24.99}
+]
