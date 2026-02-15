@@ -1,4 +1,5 @@
 """Module to compute total sales cost from a price catalogue and sales."""
+# pylint: disable=invalid-name
 
 import time
 import sys
@@ -7,7 +8,7 @@ import json
 
 def read_json(filepath):
     """Reads the provided json file and returns its contents."""
-    with open(filepath, "r") as read_file:
+    with open(filepath, "r", encoding="utf-8") as read_file:
         file_info = json.load(read_file)
     return file_info
 
@@ -118,7 +119,7 @@ def main():
 
     print(output)
 
-    with open("SalesResults.txt", "w") as out_file:
+    with open("SalesResults.txt", "w", encoding="utf-8") as out_file:
         out_file.write(output)
 
     print("\nResults saved to SalesResults.txt")
